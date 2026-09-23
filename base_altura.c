@@ -5,13 +5,15 @@
 
  int main () {
 
-    float base = 3.0;
-    float altura = 1.10;
-    float resultado;
+    float base = 8;
+    float altura = 5;
+    float area;
 
+
+    area = base * altura;
+  
+  
+    printf("a area eh%.2f", area);
     
-
-
-
     return 0;
  }
